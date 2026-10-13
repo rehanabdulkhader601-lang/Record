@@ -9,3 +9,4 @@ for number in range(5):
 print("list elements are:")
 for i in range(len(my_marks)):
     print(my_marks[i])
+    
