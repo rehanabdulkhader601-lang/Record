@@ -9,6 +9,13 @@ contact_no=int(input("Enter your contact number: "))
 current_balance=int(input("enter current balance:"))
 
 tuple1=(account_no,account_name,DOB,pancard,emailid,address,contact_no,current_balance)
+
 print(tuple1)
 
+current_balance=tuple1[4]
+new_deposit=500
+current_balance=current_balance + new_deposit
+tuple1[4]=current_balance
+
+print(tuple1)
 
